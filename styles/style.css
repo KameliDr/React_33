@@ -1,0 +1,66 @@
+body {
+    color: darkviolet;
+    font-family: 'Consolas', 'Menlo', 'DejaVu Sans Mono', 'Bitstream Vera Sans Mono', monospace;
+    background: lavender;
+    margin: 20px;
+    padding: 20px;
+}
+
+.logo {
+    width: 100%;
+    max-width: 400px;
+    height: 400px;
+}
+
+div.header__box {
+    position: absolute;
+    right: 0;
+}
+
+h1 {
+    font-size: 36px;
+}
+
+h2 {
+    font-size: 28px;
+}
+
+a {
+    color: violet;
+    font-size: 18px;
+}
+
+li a.number {
+    color: violet;
+    font-size: 18px;
+}
+
+.button_reset {
+    color: fuchsia;
+    background: blueviolet;
+    font-family: 'Consolas', 'Menlo', 'DejaVu Sans Mono', 'Bitstream Vera Sans Mono', monospace;
+}
+
+.gallery-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+select.brand + div.brand_description {
+    font-size: 20px;
+    width: 60%;
+}
+
+button[type="submit"] {
+    color: blueviolet;
+    background: fuchsia;
+    font-weight: bold;
+}
+
+#product {
+    color: darkviolet;
+    background-color: lightskyblue;
+    font-weight: bold;
+}

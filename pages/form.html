@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="../styles/style.css">
+    <title>Pandora World — Зворотній зв'язок</title>
+</head>
+<body>
+<header>
+    <nav>
+        <ul>
+            <li><a href="../index.html">
+                <img src="../images/icon/home.png" alt="Кнопка для повернення на головну сторінку" height="32"
+                     width="32">Home</a></li>
+            <li><a href="about.html">
+                <img src="../images/icon/banner.png" alt="Кнопка для переходу на (About) з учасниками розіграшу"
+                     height="32" width="32">About</a></li>
+            <li><a href="contacts.html">
+                <img src="../images/icon/ise.png" alt="Кнопка для оновлення сторінки (Contacts)" height="32" width="32">Contacts</a>
+            </li>
+            <li><a href="gallery.html">
+                <img src="../images/icon/heart.png" alt="Кнопка для переходу на (Gallery) для ознайомлення з товаром"
+                     height="32" width="32">Gallery</a></li>
+            <li><a href="articles.html">
+                <img src="../images/icon/heart.png" alt="Кнопка для переходу на (Articles)" height="32" width="32">Articles</a>
+            </li>
+            <li><a href="anchor.html">
+                <img src="../images/icon/banner.png" alt="Кнопка для переходу на (Anchor)" height="32" width="32">Anchor</a>
+            </li>
+            <li><a href="form.html">
+                <img src="../images/icon/ise.png" alt="Кнопка для оновлення сторінки (Form)" height="32" width="32">Form</a>
+            </li>
+        </ul>
+    </nav>
+</header>
+<main>
+    <h1>Зворотній зв'язок - Pandora world 💎</h1>
+    <form>
+
+        <fieldset>
+            <legend>Особисті дані</legend>
+
+            <label for="name">Ім'я:</label>
+            <input type="text" id="name" name="name">
+
+            <label for="surname">Прізвище:</label>
+            <input type="text" id="surname" name="surname">
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email">
+
+            <label for="phone">Телефон:</label>
+            <input type="tel" id="phone" name="phone">
+
+        </fieldset>
+
+
+        <fieldset>
+            <legend>Деталі замовлення</legend>
+
+            <label for="product">Оберіть прикрасу:</label>
+
+            <select id="product" name="product">
+                <option>Каблучка</option>
+                <option>Браслет</option>
+                <option>Шарм</option>
+            </select>
+
+
+            <p>Тип доставки:</p>
+
+            <label>
+                <input type="radio" name="delivery">
+                Нова пошта
+            </label>
+
+            <label>
+                <input type="radio" name="delivery">
+                Укрпошта
+            </label>
+
+
+            <p>Додатково:</p>
+
+            <label>
+                <input type="checkbox">
+                Подарункова упаковка
+            </label>
+
+            <label>
+                <input type="checkbox">
+                Листівка
+            </label>
+
+        </fieldset>
+
+
+        <fieldset>
+            <legend>Коментар</legend>
+
+            <label for="message">Ваше повідомлення:</label>
+
+            <textarea id="message" name="message"></textarea>
+
+        </fieldset>
+
+
+        <button type="submit">Відправити</button>
+        <button class="button_reset" type="reset">Очистити</button>
+
+    </form>
+</main>
+<footer>
+    <p>
+        With love,<br>
+        Your Pandora
+    </p>
+</footer>
+</body>
+</html>
